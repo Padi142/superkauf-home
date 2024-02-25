@@ -36,9 +36,6 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@lottiefiles/lottie-interactivity": "^1.6.2",
-		"@lottiefiles/lottie-player": "^2.0.3",
-		"@lottiefiles/svelte-lottie-player": "^0.3.1",
 		"bits-ui": "^0.18.2",
 		"clsx": "^2.1.0",
 		"formsnap": "^0.5.1",

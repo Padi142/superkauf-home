@@ -18,7 +18,7 @@
 >
 	<div class="flex h-[200px] w-full flex-row items-center justify-center">
 		<div
-			class="h-[180px] w-[180px] bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-slate-800 via-gray-900 blur-lg"
+			class="h-[170px] w-[170px] bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-slate-800 via-gray-900 blur-lg"
 		></div>
 		<div class="absolute inset-0 z-10 flex h-[200px] items-start justify-center">
 			<img

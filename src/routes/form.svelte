@@ -18,7 +18,7 @@
 <form method="POST" use:enhance>
 	<Form.Field {form} name="username">
 		<Form.Control let:attrs>
-			<Form.Label>ig handle</Form.Label>
+			<Form.Label><p class="">ig handle</p></Form.Label>
 			<Input {...attrs} bind:value={$formData.username} />
 			<p class="w-full text-center text-xs text-gray-500">or</p>
 			<!-- <Separator /> -->
