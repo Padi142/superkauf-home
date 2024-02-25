@@ -7,6 +7,12 @@
 	export let data: PageData;
 </script>
 
+<svelte:head>
+	<title>SuperKauf pre-register</title>
+
+	<meta name="description" content="Pre register the SuperKauf app for iOS!" />
+</svelte:head>
+
 <div
 	class="background-color background-image flex h-screen w-screen flex-col items-center justify-start"
 >
