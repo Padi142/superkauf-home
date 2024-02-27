@@ -20,14 +20,14 @@
 		<Form.Control let:attrs>
 			<Form.Label><p class="">ig handle</p></Form.Label>
 			<Input {...attrs} bind:value={$formData.username} />
-			<p class="w-full text-center text-xs text-gray-500">or</p>
+			<p class="w-full text-xs text-center text-gray-500">or</p>
 			<!-- <Separator /> -->
-			<Form.Label>email</Form.Label>
+			<Form.Label><p class="">email</p></Form.Label>
 			<Input {...attrs} bind:value={$formData.username} />
 		</Form.Control>
 		<Form.FieldErrors />
 	</Form.Field>
-	<p class="pb-6 pt-2 text-center text-xs text-gray-500 dark:text-gray-400 md:text-sm">
+	<p class="pt-2 pb-6 text-xs text-center text-gray-500 dark:text-gray-400 md:text-sm">
 		All data will be
 		<strong>deleted</strong>
 		after the app release
