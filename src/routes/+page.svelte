@@ -14,7 +14,7 @@
 </svelte:head>
 
 <div
-	class="background-color background-image flex h-screen w-screen flex-col items-center justify-start"
+	class="flex flex-col items-center justify-start bg-cover background-color background-image h-min-screen"
 >
 	<div class="flex h-[200px] w-full flex-row items-center justify-center">
 		<div
@@ -30,8 +30,14 @@
 			/>
 		</div>
 	</div>
+	<h1 class="p-8 text-2xl font-bold text-center text-slate-800">
+		Pre-register
+		<span class="whitespace-nowrap text-[hsl(240,100%,70%)]">SuperKauf</span>
+		for
+		<span class="text-fuchsia-600">iOS</span>
+	</h1>
 
-	<Form data={data.form} />
+	<Form form={data.form} />
 
 	<Socials />
 </div>

@@ -2,7 +2,7 @@
 	import { Button } from '@/components/ui/button';
 </script>
 
-<div class="flex h-16 w-full flex-row items-center justify-center pt-12">
+<div class="flex flex-row items-center justify-center w-full h-16 py-12">
 	<Button variant="ghost" href="https://www.instagram.com/matyslav_/" target="_blank">
 		<img
 			src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/2048px-Instagram_logo_2016.svg.png"
