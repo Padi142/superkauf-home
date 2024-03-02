@@ -50,5 +50,5 @@
 			after the app release
 		</h1>
 	</div>
-	<Form.Button>Submit</Form.Button>
+	<Form.Button class="hover:bg-purple-400">Submit</Form.Button>
 </form>
