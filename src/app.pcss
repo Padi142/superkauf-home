@@ -32,10 +32,15 @@
 		@apply border-border;
 	}
 	body {
-		@apply bg-background text-foreground bg-local;
-		min-height: 100%;
+		@apply text-foreground;
 		background-color: rgb(241, 245, 249);
 		background-size: cover;
+		min-height: 100vh;
+
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		/* align-items: flex-start;  */
 		background-image: radial-gradient(at 95% 78%, rgb(224, 242, 254) 0, transparent 47%),
 			radial-gradient(at 19% 71%, rgb(129, 140, 248) 0, transparent 54%),
 			radial-gradient(at 16% 17%, rgb(241, 245, 249) 0, transparent 36%),

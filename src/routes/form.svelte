@@ -14,7 +14,9 @@
 		onUpdated: ({ form: f }) => {
 			if (f.errors?.email?.[0] == null) {
 				console.log(f);
-				toast.success("You're in! 🎉");
+				if (f.errors?.instagram?.[0] == null) {
+					toast.success("You're in! 🎉");
+				}
 			} else {
 				toast.error(f.errors?.email?.[0] ?? 'Form is invalid');
 			}
