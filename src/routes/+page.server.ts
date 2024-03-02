@@ -25,7 +25,8 @@ export const actions: Actions = {
 		if (form.data.instagram == null && form.data.email == null) {
 			form.errors = {
 				...form.errors,
-				email: ['At least one field is required']
+				email: ['At least one field is required'],
+				instagram: ['At least one field is required']
 			};
 			return fail(400, { form });
 		}
@@ -48,9 +49,7 @@ export const actions: Actions = {
 
 		return {
 			form,
-			data: {
-				
-			}
+			data: {}
 		};
 	}
 };

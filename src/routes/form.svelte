@@ -34,7 +34,7 @@
 		</Form.Control>
 		<Form.FieldErrors class="text-xs" />
 	</Form.Field>
-	<p class="w-full text-xs text-center text-gray-500">or</p>
+	<p class="w-full text-sm text-center text-gray-500">or</p>
 	<Form.Field {form} name="email">
 		<Form.Control let:attrs>
 			<Form.Label><p class="text-slate-800">email</p></Form.Label>
