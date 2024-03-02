@@ -38,3 +38,10 @@ export const createPresave = async (
 		};
 	}
 };
+
+export const getPresaveCount = async (): Promise<number> => {
+	const resp = await request<{ count: number }>(API_URL + 'presaves/', {
+		method: 'GET'
+	});
+	return resp.count;
+};

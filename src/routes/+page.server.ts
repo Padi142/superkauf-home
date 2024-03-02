@@ -3,11 +3,12 @@ import { fail } from '@sveltejs/kit';
 import { superValidate } from 'sveltekit-superforms';
 import { formSchema } from './schema';
 import { zod } from 'sveltekit-superforms/adapters';
-import { createPresave } from '@/api/presave';
+import { createPresave, getPresaveCount } from '@/api/presave';
 import type { CreatePresave } from '@/models/presave';
 
 export const load: PageServerLoad = async () => {
 	return {
+		presaveCount: await getPresaveCount(),
 		form: await superValidate(zod(formSchema))
 	};
 };
@@ -46,7 +47,10 @@ export const actions: Actions = {
 		}
 
 		return {
-			form
+			form,
+			data: {
+				
+			}
 		};
 	}
 };

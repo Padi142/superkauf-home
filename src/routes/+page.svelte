@@ -3,6 +3,7 @@
 	import Form from './form.svelte';
 	import Socials from './socials.svelte';
 	import type { PageData } from './$types';
+	import Presaves from './presaves.svelte';
 
 	export let data: PageData;
 </script>
@@ -38,6 +39,8 @@
 	</h1>
 
 	<Form form={data.form} />
+
+	<Presaves {data} />
 
 	<Socials />
 </div>
