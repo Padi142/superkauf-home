@@ -24,7 +24,7 @@
 			>
 		</Card.Header>
 		<Card.Content>
-			<p class="text-center">567</p>
+			<p class="text-center">573</p>
 		</Card.Content>
 	</Card.Root>
 </div>
