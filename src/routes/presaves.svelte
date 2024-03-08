@@ -11,7 +11,7 @@
 			<Card.Title class="text-center">iOS</Card.Title>
 		</Card.Header>
 		<Card.Content>
-			<p class="text-center">-{data.presaveCount}</p>
+			<p class="text-center">{data.presaveCount}</p>
 		</Card.Content>
 	</Card.Root>
 
